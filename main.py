@@ -964,7 +964,7 @@ class TiffinServiceApp:
             else:
                 customers = []
 
-            # Create a new customer entry
+            # Create a new customer entryy
             customer_id = datetime.now().strftime("%Y%m%d%H%M%S")  # Unique ID
             new_customer = {
                 'Customer ID': customer_id,
